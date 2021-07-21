@@ -1,0 +1,150 @@
+
+
+
+
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<!--Domain of new version of XJOI: https://alpha.xjoi.net-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>XJOI</title>
+
+		<link rel="shortcut icon" href="https://static.xjoi.net/images/xjoi-new/favicon.ico" />
+
+		<link rel="stylesheet" href="https://static.xjoi.net/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://static.xjoi.net/css/bootstrap-theme.min.css" />
+		<script src="https://static.xjoi.net/js/jquery.min.js"></script>
+		<script src="https://static.xjoi.net/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://static.xjoi.net/css/xjoi-new/xjoi-new.css?v=17" type="text/css" />
+		<link rel="stylesheet" href="https://static.xjoi.net/css/non-responsive.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+		<script type="text/javascript" src="https://static.xjoi.net/Scripts/shCore.js"></script>
+		<script type="text/javascript" src="https://static.xjoi.net/Scripts/shBrushJScript.js"></script>
+		<script type="text/javascript" src="https://static.xjoi.net/Scripts/shBrushCpp.js"></script>
+		<script type="text/javascript" src="https://static.xjoi.net/Scripts/shBrushDelphi.js"></script>
+		<link type="text/css" rel="stylesheet" href="https://static.xjoi.net/Styles/shCoreDefault.css" />
+		<script type="text/javascript">
+			SyntaxHighlighter.all();
+		</script>
+		<script type="text/javascript">
+			SyntaxHighlighter.config.tagName = 'textarea';
+		</script>
+
+		<script type="text/javascript" src="https://static.xjoi.net/js/ckeditor/ckeditor.js"></script>
+
+
+
+		<!-- MathJax -->
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			showProcessingMessages: false,
+			tex2jax: {
+				inlineMath: [["$", "$"], ["\\\\(", "\\\\)"],["\\(","\\)"],["[tex]","[/tex]"]],
+				processEscapes:true
+			},
+			menuSettings: {
+				zoom: "Hover"
+			}
+		});
+	</script>
+		<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.4.0/MathJax.js?config=default"></script>
+
+		<!-- heiheihei - by cbh -->
+		<link href="https://fonts.loli.net/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			.page {
+				font-family: 'Lato', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif !important;
+			}
+		</style>
+
+	</head>
+
+	<body class="page">
+		<script type="text/javascript">
+			document.body.style.zoom = Math.max(window.screen.width, 1440) / 1440;
+		</script>
+		<div class="other-navbar">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<img src="https://static.xjoi.net/images/xjoi-new/banner.png" class="banner" />
+			</div>
+			<div id="navbar" class="navbar-collapse collapse other-navbar-collapse">
+				<ul class="nav navbar-nav other-navbar-nav">
+					<li class="active"><a href="/">首页(Home)</a></li>
+					<li><a href="/about-team">团队(Team)</a></li>
+					<li> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">题库(Problem) <span class="caret"></span></a>
+						<ul class="dropdown-menu other-dropdown-menu" role="menu">
+							<a href="/problemlist">
+								<div class="dropdown-tag other-dropdown-tag">
+									<p> 题库(Problems) </p>
+								</div>
+							</a>
+							<a href="/submit">
+								<div class="dropdown-tag other-dropdown-tag">
+									<p> 提交(Submit) </p>
+								</div>
+							</a>
+							<a href="/status">
+								<div class="dropdown-tag other-dropdown-tag">
+									<p> 状态(Status) </p>
+								</div>
+							</a>
+							<a href="/spotChecks">
+								<div class="dropdown-tag other-dropdown-tag">
+									<p> 抽查(SpotCheck) </p>
+								</div>
+							</a>
+						</ul>
+					</li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">比赛(Contest) <span class="caret"></span></a>
+						<ul class="dropdown-menu other-dropdown-menu" role="menu">
+							<a href="/precontests">
+								<div class="dropdown-tag other-dropdown-tag">
+									<p> 初赛(Preliminary) </p>
+								</div>
+							</a>
+							<a href="/contests">
+								<div class="dropdown-tag other-dropdown-tag">
+									<p> OI Contests </p>
+								</div>
+							</a>
+						</ul>
+					</li>
+					<li><a href="/curriculums">课程(Lesson)</a></li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">新闻 <span class="caret"></span></a>
+						<ul class="dropdown-menu home-dropdown-menu" role="menu">
+							<a href="/news">
+								<div class="dropdown-tag home-dropdown-tag">
+									<p> 校园动态(On-campus News) </p>
+								</div>
+							</a>
+							<a href="/related-news">
+								<div class="dropdown-tag home-dropdown-tag">
+									<p> 相关报道(Other News) </p>
+								</div>
+							</a>
+						</ul>
+					</li>
+
+
+					
+												<li class="active"><a href="https://id.xjoi.net/login?clientId=c5a42baf5">登录(Login)</a></li>
+						<li class="active"><a href="https://id.xjoi.net/register?clientId=c5a42baf5">注册(Rigister)</a></li>
+					
+
+
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div> <div class="problem-view-main" role="main"><p align="center"><img src="https://static.xjoi.net/images/emoticon-1.gif" alt=""></p><p align="center">Access Denied</p></div>
+	<div class="decorate-bottom">
+			<p class="copyright"> 版权所有&copy;HZXJHS &nbsp;&nbsp; 服务器 ID: dev01 &nbsp;&nbsp; 服务器时间：2020-11-05 14:38:11</p>
+
+		</div>
+
+
+
+	 </body> </html>
+	
